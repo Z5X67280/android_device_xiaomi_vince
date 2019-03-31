@@ -15,4 +15,11 @@
    "target_path": "kernel/xiaomi/msm8953",
    "branch":     "PE-4.9"
  }
+  },
+  {
+    "repository": "packages_apps_WallpapersBReel2018",
+    "target_path": "packages/apps/WallpapersBReel2018",
+    "branch": "pie",
+    "remote": "pixel-gitlab"
+  }
 ]
