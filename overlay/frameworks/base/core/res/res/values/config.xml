@@ -535,4 +535,14 @@
     <dimen name="status_bar_height_portrait">90.0px</dimen>
     <dimen name="status_bar_height">90.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dip</dimen>
+
+    <!-- Whether auto face unlock is enabled by default -->
+    <bool name="config_autoFaceUnlockEnabledByDefault">true</bool>
+
+    <!-- Enable NightLight -->
+    <bool name="config_nightDisplayAvailable">true</bool>
+   
+    <!-- Whether the device has fingeprint sensor or not -->
+    <bool name="config_hasFingerprintSensor">true</bool>
+
 </resources>
