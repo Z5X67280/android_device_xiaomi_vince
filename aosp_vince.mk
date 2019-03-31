@@ -27,6 +27,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # PixelExperience stuff.
 TARGET_GAPPS_ARCH := arm64
+export CUSTOM_BUILD_TYPE=UNOFFICIAL
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
