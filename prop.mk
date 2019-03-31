@@ -64,9 +64,10 @@ vendor.camera.aux.packagelist2=com.android.systemui \
 vendor.camera.aux.packagelist=org.codeaurora.snapcam \
 vidc.enc.dcvs.extra-buff-count=2
 
-# Camera HAL 3
+# Camera HAL 3 \ Camera EIS
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.camera.HAL3.enabled=1
+persist.camera.HAL3.enabled=1 \
+persist.camera.eis.enable=1
 
 # Cne
 PRODUCT_PROPERTY_OVERRIDES += \
