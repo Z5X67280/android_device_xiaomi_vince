@@ -17,6 +17,11 @@
  }
   },
   {
+    "remote": "github",
+    "repository": "rama982/android_vendor_xiaomi_MiuiCamera",
+    "target_path": "vendor/xiaomi/MiuiCamera"
+  },
+  {
     "repository": "packages_apps_WallpapersBReel2018",
     "target_path": "packages/apps/WallpapersBReel2018",
     "branch": "pie",
