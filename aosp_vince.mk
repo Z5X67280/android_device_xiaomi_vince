@@ -25,10 +25,9 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Inherit some common Pixel Experience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# PixelExperience stuff.
+# PixelExperience Stuff.
 TARGET_GAPPS_ARCH := arm64
 export CUSTOM_BUILD_TYPE=UNOFFICIAL
-TARGET_INCLUDE_STOCK_ARCORE := true
 
 # Maintainer Prop
 PRODUCT_BUILD_PROP_OVERRIDES += \
