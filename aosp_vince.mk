@@ -25,13 +25,12 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Inherit some common Pixel Experience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# PixelExperience Stuff.
-TARGET_GAPPS_ARCH := arm64
+# AospExtended Stuff.
 export CUSTOM_BUILD_TYPE=UNOFFICIAL
 
 # Maintainer Prop
 PRODUCT_BUILD_PROP_OVERRIDES += \
-DEVICE_MAINTAINERS="urK missing rama982."
+DEVICE_MAINTAINERS="urK"
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
