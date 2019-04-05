@@ -22,11 +22,8 @@ $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/vince.mk)
 # Inherit from vince device
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
-# Inherit some common Pixel Experience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-# AospExtended Stuff.
-export CUSTOM_BUILD_TYPE=UNOFFICIAL
+# Inherit some common stuff.
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Maintainer Prop
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -34,7 +31,7 @@ DEVICE_MAINTAINERS="urK"
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
-PRODUCT_NAME := aosp_vince
+PRODUCT_NAME := dot_vince
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi
